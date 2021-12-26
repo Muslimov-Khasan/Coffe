@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/barlow-v5-latin-700.woff') format('woff2'), 
+         url('../Fonts/barlow-v5-latin-700.woff2') format('woff'); 
+  }
+  
+
+  *{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    padding: 0;
+    font-family: "barlow" ,"Arial" , sans-serif;
+}
+
+.container{
+  width: 1240px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .header__top{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav__item{
+      display: flex;
+      list-style-type: none;
+  }
+
+  .nav__list{
+      margin-left: 20px;
+  }
+
+  .nav__link{
+      color: #83888F;
+      margin-bottom: 90px;
+      text-decoration: none;
+  }
+
+  .nav__link:hover{
+    color: #333D4B;
+    text-decoration: none;
+}
+
+.hero__section{
+  padding-left: 86px;
+  background-image: url("../imges/Bitmap.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 45px;
+  border-radius: 10px;
+  height: 600px;
+}
+
+
+.box__head{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  width: 493px;
+  padding-top: 117px;
+}
+
+.box__titel{
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-top: 32px;
+  width: 445px;
+}
+
+.box__bottom{
+  font-family: "Barlow", "serif";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  background: #0E8784;
+  border-radius: 6px;
+  margin-top: 56px;
+  padding: 15px 31px;
+  border:none;
+  cursor: pointer;
+}
+
+.box__bottom:hover{
+  font-family: 'Barlow', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #e4e3e1;
+  background: #42b1af;
+  border-radius: 6px;
+  margin-top: 56px;
+  padding: 15px 31px;
+  border:none;
+  cursor: pointer;
+}
+
